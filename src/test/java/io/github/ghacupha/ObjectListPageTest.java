@@ -149,7 +149,7 @@ class ObjectListPageTest {
     @Test
     void getProcessingPage() {
 
-        IListPage<Indexable> listPage = new ObjectListPage(4);
+        IListPage<Indexable> listPage = new ObjectListPage<>(4);
         int PROCESSED_ITEMS = processItems.size();
 
         List<Indexable> processedItemsIndices = new ArrayList<>();
