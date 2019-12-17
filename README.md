@@ -154,4 +154,24 @@ The following is a typical workflow:
              assertThat(processedNames.size()).isEqualTo(PROCESSED_ITEMS);
          }
          
+## INSTALLATION
+
+Add the jit-pack repository
+
+        <repositories>
+     		<repository>
+     		    <id>jitpack.io</id>
+     		    <url>https://jitpack.io</url>
+     		</repository>
+     	</repositories>
+     	
+The add the dependency
+
+        <dependency>
+            <groupId>com.github.ghacupha</groupId>
+            <artifactId>list-page</artifactId>
+            <version>-SNAPSHOT</version>
+        </dependency>
+
+
 LICENSE : [MIT](LICENSE)
